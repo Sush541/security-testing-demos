@@ -12,8 +12,8 @@ mkdir -p $REPORT_FOLDER
 echo "Running trivy..."
 
 # Scan directory for misconfigurations
-trivy config . > $REPORT_FOLDER/trivy_directory.txt
-trivy fs . > $REPORT_FOLDER/trivy_directory.txt
+trivy config . > $REPORT_FOLDER/trivy_directory_config.txt
+trivy fs . > $REPORT_FOLDER/trivy_directory_fs.txt
 
 # Scan image for vulnerabilities
 trivy image $NAME > $REPORT_FOLDER/trivy_container.txt
