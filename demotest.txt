@@ -1,0 +1,5 @@
+AWS_SECRET_ACCESS_KEY=AKIA123FAKEDEMO123456
+password = "SuperSecret123"
+github_pat_ghp_1234567890abcdef1234567890abcdef1234
+slack_token="xoxb-12345-abcdef-67890-1234567890"
+
